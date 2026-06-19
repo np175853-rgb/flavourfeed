@@ -1,0 +1,6 @@
+{
+  "name": "FlavorFeed",
+  "description": "FlavorFeed is a modern food blogging, recipe discovery, and photography platform designed for food enthusiasts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Poppins", Inter, sans-serif;
+  --color-primary: #FF7A00;
+  --color-secondary: #FFF4E5;
+  --color-accent: #2C2C2C;
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-white text-[#2C2C2C] antialiased selection:bg-[#FF7A00]/20;
+  }
+}
+
+/* Custom Hide Scrollbar styles */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
